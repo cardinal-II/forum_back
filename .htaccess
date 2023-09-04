@@ -5,8 +5,8 @@ RewriteEngine On
 # In such cases, it should be the path (relative to the document root)
 # containing this .htaccess file
 #
-RewriteBase /qr-simple-teams-api/
-FallbackResource /qr-simple-teams-api/index.php
+RewriteBase /forum_back_staging/
+FallbackResource /forum_back_staging/index.php
 
 RewriteRule ^(app|dict|ns|tmp)\/|\.ini$ - [R=404]
 
